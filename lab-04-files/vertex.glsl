@@ -2,6 +2,7 @@ varying vec4 position;
 varying vec3 normal;
 varying vec3 light_direction;
 
+
 void main()
 {
     normal = normalize(gl_NormalMatrix * gl_Normal);
